@@ -1,8 +1,8 @@
 # Technical Proposal for Gaming Web Application
 
-**Client:** [Client Name]  
-**Prepared by:** [Your Name / Company]  
-**Date:** [Date]
+**Client:** 
+**Prepared by:** 
+**Date:** 
 
 ---
 
