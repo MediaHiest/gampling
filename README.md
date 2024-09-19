@@ -135,3 +135,93 @@ In addition to the development costs, there will be **ongoing operational costs*
 This proposal provides a comprehensive plan for developing a high-performance gaming web application with real-time communication, multiplayer games, and social interaction features. The total development cost is **$100,000** over a 9-month timeline. Additionally, ongoing operational costs will be handled on a **pay-as-you-use** basis, allowing the platform to scale cost-effectively based on actual usage.
 
 We are committed to delivering a robust and scalable solution with optimized performance, ensuring the successful launch and ongoing success of the platform.
+
+
+---
+
+# Project Pricing Tiers
+
+## 1. Basic Plan (Fewer Features, Lower Price)
+
+### Price: $60,000
+
+### Features:
+- **Multiplayer Games**: Billiards (3 versions), Chess, Ludo.
+- **Text-based Chat**: Only text chat support in game rooms.
+- **Public & National Rooms**: Rooms limited to public and national categories.
+- **User Registration & Login**: Basic user registration, login, and profile creation.
+- **Basic Payment Options**: PayPal and Stripe for payments.
+- **Simple Leaderboard**: A basic leaderboard showing top players.
+- **Simple Static Background**: Static background for game rooms and the main menu.
+- **Basic Game Statistics**: Game win/loss stats for each player.
+
+### Tech Stack:
+- **React.js**: Core frontend framework.
+- **Socket.IO**: For real-time messaging.
+- **Nest.js & MongoDB**: Backend and database to handle users, games, and scoring.
+- **Styled-components**: For simple UI styling.
+
+### Timeline: 6 months
+
+---
+
+## 2. Standard Plan (Current Proposal)
+
+### Price: $100,000
+
+### Features:
+- **Multiplayer Games**: Billiards (5 versions), Chess, Ludo.
+- **Text and Voice Chat**: Real-time text and voice chat in rooms.
+- **Multiple Room Types**: Public, national, and paid private rooms.
+- **Enhanced User Profile**: Profile with custom member search by unique ID.
+- **Advanced Payment Options**: PayPal, Apple Pay, Visa, Mastercard.
+- **Leaderboard**: Detailed leaderboard with player rankings and stats.
+- **Animated Backgrounds**: Animated backgrounds for the main menu, rooms, and winner announcements.
+- **Game Log**: Records of previous games and results.
+- **Enhanced Game Statistics**: Detailed win/loss ratio, best performances, etc.
+- **Media Sharing**: Share TikTok, Instagram, and YouTube videos directly in chat.
+- **In-app Currency**: Users can buy and transfer currency between members.
+
+### Tech Stack:
+- **React.js, React-Three-Fiber, Cannon.js**: For rendering and managing 3D games and interactions.
+- **Socket.IO**: For real-time text and voice chat.
+- **Nest.js & MongoDB**: Backend services to manage multiplayer game logic, payments, and room creation.
+- **Styled-components**: For dynamic UI styling.
+
+### Timeline: 9 months
+
+---
+
+## 3. Premium Plan (Advanced Features: Streaming, Live Events, Enhanced Security)
+
+### Price: $140,000
+
+### Features:
+- **Streaming Capabilities**: Integration for live streaming of billiards tournaments or other events.
+- **Live Events**: Host multiplayer tournaments and challenges, with real-time scoreboards.
+- **Group Video Streaming**: Users can stream their gameplay or live video to others in the room.
+- **Enhanced Security Features**:
+  - **Two-Factor Authentication (2FA)**: Adds an extra layer of security.
+  - **Advanced Encryption**: For all communication (text, voice, and media) to ensure privacy and data protection.
+- **Advanced Media Sharing**: Allow users to share live video streams from YouTube or TikTok in chat.
+
+### Tech Stack:
+- **React.js, React-Three-Fiber, Cannon.js**: Core for 3D game rendering and animations.
+- **WebRTC & Socket.IO**: For video, voice chat, and live streaming.
+- **Nest.js & MongoDB**: Backend services to support live events, streaming, and secure user authentication.
+- **OAuth & JWT**: For secure authentication and advanced user security protocols.
+- **CDN**: For fast, reliable delivery of video and media content.
+
+### Timeline: 12 months
+
+---
+
+## Ongoing Operational Costs (All Plans)
+
+- **Hosting**: Cloud services (AWS/GCP) for server hosting and scaling.
+- **Database**: MongoDB charges based on storage and requests.
+- **WebRTC and Streaming Costs**: Costs for maintaining real-time communications and video streaming.
+- **CDN**: Content Delivery Network for media and static content.
+- **Payment Gateway Fees**: Transaction fees from Stripe, PayPal, etc.
+- **Support and Maintenance**: Ongoing support, updates, and bug fixes (Pay-as-you-use).
+
